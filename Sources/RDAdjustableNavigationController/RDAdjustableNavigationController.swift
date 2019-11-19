@@ -50,7 +50,7 @@ public class RDAdjustableNavigationController: UINavigationController {
     
     // MARK: -
     
-    override init(rootViewController: UIViewController) {
+    public override init(rootViewController: UIViewController) {
         super.init(navigationBarClass: RDAdjustableNavigationBar.self, toolbarClass: UIToolbar.self)
         viewControllers = [rootViewController]
     }
