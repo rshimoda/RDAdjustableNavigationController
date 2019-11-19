@@ -3,8 +3,6 @@
 
 # RDAdjustableNavigationController
 
-A navigation controller with adjustable navigation bar.
-
 Available adjustemtns:
 - navigation bar height
 - navigation bar content alignment (top, middle, bottom)
@@ -21,3 +19,12 @@ navigationController.useSystemHeight = false
 navigationController.navigationBarHeight = 52.0
 navigationController.contentVerticalAlignment = .bottom
 ```
+
+## Installation:
+
+Via Swift Package Manager:
+1. In your Xcode project choose File -> Swift Packages -> Add Package Dependency...
+2. Follow the instructions. In the nessessary field insert URL of this repository.
+
+Currently only Swift Package Manager is supported. 
+Though, Xcode 11 has great built in SPM support - if you'd like to use this framework it's a good chance to give SPM a try :)
