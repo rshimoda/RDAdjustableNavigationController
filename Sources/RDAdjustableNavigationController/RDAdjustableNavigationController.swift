@@ -16,6 +16,15 @@ public class RDAdjustableNavigationController: UINavigationController {
     
     // MARK: -
     
+    public var useSystemHeight: Bool {
+        get {
+            return customNavBar?.useSystemHeight ?? false
+        }
+        set {
+            customNavBar?.useSystemHeight = newValue
+        }
+    }
+    
     /// Navigation bar content (bar items, title etc) alignment.
     public var contentVerticalAlignment: RDAdjustableNavigationBarContentAlignment {
         get {
