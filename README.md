@@ -28,3 +28,7 @@ Via Swift Package Manager:
 
 Currently only Swift Package Manager is supported. 
 Though, Xcode 11 has great built in SPM support - if you'd like to use this framework it's a good chance to give SPM a try :)
+
+## Sample project:
+
+https://github.com/rshimoda/UINavigationBar-CustomHeight
